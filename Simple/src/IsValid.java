@@ -16,15 +16,19 @@ public class IsValid {
     }
 
     public char match(char ch) {
-        return switch (ch) {
+        switch (ch) {
 //            case '(' -> ')';
-            case ')' -> '(';
+            case ')':
+                return '(';
 //            case '[' -> ']';
-            case ']' -> '[';
+            case ']':
+                return '[';
 //            case '{' -> '}';
-            case '}' -> '{';
-            default -> ch;
-        };
+            case '}':
+                return '{';
+            default:
+                return ch;
+        }
     }
 
 }
