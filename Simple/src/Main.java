@@ -1,4 +1,5 @@
 import top100.AddTwoNumbers;
+import top100.FindMedianSortedArrays;
 import top100.LengthOfLongestSubstring;
 import top100.ListNode;
 
@@ -16,8 +17,13 @@ public class Main {
 //        AddTwoNumbers test = new AddTwoNumbers();
 //        test.addTwoNumbers(l1, l2);
 
-        LengthOfLongestSubstring test = new LengthOfLongestSubstring();
-        test.lengthOfLongestSubstring("aa");
+//        LengthOfLongestSubstring test = new LengthOfLongestSubstring();
+//        test.lengthOfLongestSubstring("aa");
+
+        FindMedianSortedArrays findMedianSortedArrays = new FindMedianSortedArrays();
+        int[] num1 = {1, 2};
+        int[] num2 = {3, 4};
+        findMedianSortedArrays.findMedianSortedArrays(num1, num2);
 
     }
 
