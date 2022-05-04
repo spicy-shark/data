@@ -2,6 +2,7 @@ import top100.AddTwoNumbers;
 import top100.FindMedianSortedArrays;
 import top100.LengthOfLongestSubstring;
 import top100.ListNode;
+import top100.LongestPalindrome;
 
 public class Main {
 
@@ -20,10 +21,12 @@ public class Main {
 //        LengthOfLongestSubstring test = new LengthOfLongestSubstring();
 //        test.lengthOfLongestSubstring("aa");
 
-        FindMedianSortedArrays findMedianSortedArrays = new FindMedianSortedArrays();
-        int[] num1 = {1, 2};
-        int[] num2 = {3, 4};
-        findMedianSortedArrays.findMedianSortedArrays(num1, num2);
+//        FindMedianSortedArrays findMedianSortedArrays = new FindMedianSortedArrays();
+//        int[] num1 = {1, 2};
+//        int[] num2 = {3, 4};
+//        findMedianSortedArrays.findMedianSortedArrays(num1, num2);
+        LongestPalindrome longestPalindrome = new LongestPalindrome();
+        longestPalindrome.longestPalindrome("ssss");
 
     }
 
