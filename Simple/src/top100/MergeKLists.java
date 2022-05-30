@@ -25,7 +25,7 @@ public class MergeKLists {
     }
   }
 
-  PriorityQueue<Status> queue = new PriorityQueue<Status>();
+  PriorityQueue<Status> queue = new PriorityQueue<>();
 
   public ListNode mergeKLists(ListNode[] lists) {
     for (ListNode node: lists) {
@@ -45,6 +45,4 @@ public class MergeKLists {
     }
     return head.next;
   }
-
-
 }
