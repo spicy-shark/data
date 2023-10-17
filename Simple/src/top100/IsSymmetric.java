@@ -1,5 +1,7 @@
 package top100;
 
+import common.TreeNode;
+
 public class IsSymmetric {
 
   public boolean isSymmetric(TreeNode root) {

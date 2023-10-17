@@ -1,5 +1,7 @@
 package top100;
 
+import common.ListNode;
+
 public class AddTwoNumbers {
 
   public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

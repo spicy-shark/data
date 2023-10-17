@@ -1,5 +1,7 @@
 package top100;
 
+import common.ListNode;
+
 /**
  * @program: leetCode
  * @description: https://leetcode.cn/problems/merge-two-sorted-lists/

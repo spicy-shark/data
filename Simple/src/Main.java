@@ -1,17 +1,19 @@
-import top100.IsSymmetric;
-import top100.TreeNode;
+import Offer.*;
 
 public class Main {
 
-    public static void main(String[] args) {
-        TreeNode treeNode = new TreeNode(1);
-        treeNode.left = new TreeNode(2);
-        treeNode.left.left = new TreeNode(2);
-        treeNode.right = new TreeNode(2);
-        treeNode.right.left = new TreeNode(2);
+  public static void main(String[] args) {
+    Offer_2_011 offer = new Offer_2_011();
+    int res = offer.findMaxLength(new int[]{0, 0 ,1});
+    System.out.println(res);
+  }
 
-        IsSymmetric isSymmetric = new IsSymmetric();
-        System.out.println(isSymmetric.isSymmetric(treeNode));
-    }
+  static void appendStr(StringBuilder str) {
+    str.append("4");
+  }
+
+  static void append(String str) {
+    str += "4";
+  }
 
 }

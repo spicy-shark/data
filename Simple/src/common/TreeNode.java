@@ -1,4 +1,4 @@
-package top100;
+package common;
 
 public class TreeNode {
 

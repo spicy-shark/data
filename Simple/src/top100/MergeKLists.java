@@ -1,5 +1,7 @@
 package top100;
 
+import common.ListNode;
+
 import java.util.PriorityQueue;
 
 /**
